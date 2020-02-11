@@ -1,0 +1,173 @@
+
+*******************************************************************************************
+User testing for option 1:
+
+/**
+
+when the user enter the option 1
+User has to input the item name and the qunatity of items to oder from stock
+*/
+
+Stock contains:
+
+ name = Monitor , id = 1 , quantity = 50
+ name = Mouse , id = 2 , quantity = 60
+======================================================
+Select an action you want to perform	:
+
+Select 0 to Stop shopping	:
+Select 1 to order item from stock	:
+Select 2 to reorder the stock item	:
+Select 3 to add new items to stock	:
+======================================================
+1
+Which item you want to Order?
+Monitor
+Enter the quantity to order	:
+48
+Stock contains:
+
+ name = Monitor , id = 1 , quantity = 2
+ name = Mouse , id = 2 , quantity = 60
+Would you like to order more? (yes/no)
+yes
+Stock contains:
+
+ name = Monitor , id = 1 , quantity = 2
+ name = Mouse , id = 2 , quantity = 60
+Which item you want to Order?
+Monitor
+/*If there is insufficient stock then it asks to reorder by some specified amount
+
+*/
+
+Product reached minimum stock level	for item	: Monitor
+Please reorder some quantity to refill the stock	: 
+10
+Stock contains:
+
+ name = Monitor , id = 1 , quantity = 12
+ name = Mouse , id = 2 , quantity = 60
+Enter the quantity to order	:
+8
+Stock contains:
+
+ name = Monitor , id = 1 , quantity = 4
+ name = Mouse , id = 2 , quantity = 60
+Would you like to order more? (yes/no)
+no
+
+************************************************************************************************
+************************************************************************************************
+User testing for option 2:
+
+/**
+
+when the user enter the option 2
+User has to input the item name and the qunatity of items to reoder to the stock
+*/
+======================================================
+Select an action you want to perform	:
+
+Select 0 to Stop shopping	:
+Select 1 to order item from stock	:
+Select 2 to reorder the stock item	:
+Select 3 to add new items to stock	:
+======================================================
+2
+Enter which item you want to reorder.........!
+Monitor
+Enter the quantity to reorder	:
+20
+
+/*
+Stock will be updated with the new ordered amount
+*/
+Stock contains:
+
+ name = Monitor , id = 1 , quantity = 24
+ name = Mouse , id = 2 , quantity = 60
+
+*****************************************************************************************************
+*****************************************************************************************************
+User testing for option 3:
+
+/**
+
+when the user enter the option 3
+It ask user to enter new item name, id, quantity
+*/
+======================================================
+Select an action you want to perform	:
+
+Select 0 to Stop shopping	:
+Select 1 to order item from stock	:
+Select 2 to reorder the stock item	:
+Select 3 to add new items to stock	:
+======================================================
+3
+Enter Item Name	:
+Hard disk
+Enter Item id	:
+3
+Enter Item quantity	:
+70
+Enter Item minimum stock level	:
+6
+Do you want to add more new items to stocks? (y/n)
+n
+Stock contains:
+
+ name = Monitor , id = 1 , quantity = 24
+ name = Mouse , id = 2 , quantity = 60
+ name = Hard disk , id = 3 , quantity = 70
+****************************************************************************************************************
+User testing for option 0:
+
+/**
+
+when the user enter the option 0
+Program terminates by showing the final stock
+*/
+======================================================
+Select an action you want to perform	:
+
+Select 0 to Stop shopping	:
+Select 1 to order item from stock	:
+Select 2 to reorder the stock item	:
+Select 3 to add new items to stock	:
+======================================================
+0
+Stock contains:
+
+ name = Monitor , id = 1 , quantity = 24
+ name = Mouse , id = 2 , quantity = 60
+ name = Hard disk , id = 3 , quantity = 70
+********************************************************************************************************************
+*********************************************************************************************************************
+User testing when user selects none of the options:
+
+/**
+
+when the user enter the option any number except (0,1,2,3)
+Program displays the user selection options
+*/
+
+Select an action you want to perform	:
+
+Select 0 to Stop shopping	:
+Select 1 to order item from stock	:
+Select 2 to reorder the stock item	:
+Select 3 to add new items to stock	:
+======================================================
+4
+Please choose an option from the list...........!
+======================================================
+Select an action you want to perform	:
+
+Select 0 to Stop shopping	:
+Select 1 to order item from stock	:
+Select 2 to reorder the stock item	:
+Select 3 to add new items to stock	:
+======================================================
+

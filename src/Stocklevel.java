@@ -2,8 +2,7 @@
  * Stocklevel has item name, item id,item quantity,item minimum stock level 
  * values are set to the defined variables and it performs different operations  
  * based upon the user requirements like ordering stock,removing stock, 
- * getting minimum stock level of specific item based upon the user input.
- * @author P2519821	
+ * getting minimum stock level of specific item based upon the user input.	
  */
 public class Stocklevel {
 	
